@@ -45,17 +45,17 @@ This project demonstrates practical skills in **data extraction, transformation,
 Real-Time-Stock-Market-Dashboard/
 │
 ├── data/
-│   ├── stock_data.xlsx
-│   └── stock_data.csv
-│
+│   |
+│   └── stock_data.xlsx
+|
+├── images/
+│   └── dashboard.png
+|
 ├── python/
 │   └── fetch_stock_data.py
 │
-├── dashboard/
-│   └── dashboard.xlsx
+├── Real-Time Stock Market Dashboard.xlsx
 │
-├── images/
-│   └── dashboard.png
 │
 └── README.md
 ```
@@ -188,7 +188,7 @@ The dashboard helps users quickly identify:
 > Add your dashboard screenshot here.
 
 ```markdown
-![Dashboard](images/dashboard.png)
+(images/dashboard.png)
 ```
 
 ---
