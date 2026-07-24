@@ -54,8 +54,13 @@ Real-Time-Stock-Market-Dashboard/
 ├── python/
 │   └── fetch_stock_data.py
 │
+|__ videos/
+|    |__ demo.mp4
+|    └── link
+|
+|__ LICENSE
+|
 ├── README.md
-│
 │
 └── Real-Time Stock Market Dashboard.xlsx
 ```
