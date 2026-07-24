@@ -185,9 +185,9 @@ The dashboard helps users quickly identify:
 
 
 
-## 📷 Dashboard Preview
+## 🎥 Project Demo
 
-![Dashboard](images/dashboard.png)
+[![Watch Demo](images/dashboard.png)](videos/demo.mp4)
 
 ---
 
