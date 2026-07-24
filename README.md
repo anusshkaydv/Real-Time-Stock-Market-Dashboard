@@ -54,10 +54,10 @@ Real-Time-Stock-Market-Dashboard/
 ├── python/
 │   └── fetch_stock_data.py
 │
-├── Real-Time Stock Market Dashboard.xlsx
+├── README.md
 │
 │
-└── README.md
+└── Real-Time Stock Market Dashboard.xlsx
 ```
 
 ---
