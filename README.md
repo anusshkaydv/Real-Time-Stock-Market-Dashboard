@@ -62,7 +62,9 @@ Real-Time-Stock-Market-Dashboard/
 |
 ├── README.md
 │
-└── Real-Time Stock Market Dashboard.xlsx
+|__ Real-Time Stock Market Dashboard.xlsx
+|
+└── Report.docx
 ```
 
 ---
