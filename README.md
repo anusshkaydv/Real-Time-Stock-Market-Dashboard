@@ -187,7 +187,8 @@ The dashboard helps users quickly identify:
 
 ## 🎥 Project Demo
 
-[![Watch Demo](images/dashboard.png)](videos/demo.mp4)
+[![Dashboard](images/dashboard.png)](videos/demo.mp4)
+[▶️ View Demo Video](https://drive.google.com/file/d/1LvJmbdnQ0ea-ci2NiQn80ft4i41-en4C/view?usp=sharing)
 
 ---
 
