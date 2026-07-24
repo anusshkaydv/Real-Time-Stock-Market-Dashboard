@@ -189,7 +189,7 @@ The dashboard helps users quickly identify:
 
 ![Dashboard](images/dashboard.png)
 ```
-
+---
 ---
 
 # 💡 Skills Demonstrated
