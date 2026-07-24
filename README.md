@@ -183,12 +183,11 @@ The dashboard helps users quickly identify:
 
 ---
 
-# 📷 Dashboard Preview
 
-> Add your dashboard screenshot here.
 
-```markdown
-(images/dashboard.png)
+## 📷 Dashboard Preview
+
+![Dashboard](images/dashboard.png)
 ```
 
 ---
