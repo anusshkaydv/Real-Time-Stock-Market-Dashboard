@@ -188,9 +188,8 @@ The dashboard helps users quickly identify:
 ## 📷 Dashboard Preview
 
 ![Dashboard](images/dashboard.png)
-```
----
 
+---
 
 ## 💡 Skills Demonstrated
 
@@ -244,8 +243,6 @@ The dashboard helps users quickly identify:
 
 **Anushka Yadav**
 
-B.Tech (Computer Science & Engineering - AI & ML)
+B.Tech (Computer Science & Engineering – AI & ML)
 
 Aspiring **Data Analyst | Business Intelligence Analyst**
-
----
