@@ -55,7 +55,8 @@ Real-Time-Stock-Market-Dashboard/
 │   └── stock_data.xlsx
 │
 ├── images/
-│   └── dashboard.png
+|   |__ dashboard.png
+│   └── update.png
 │
 ├── python/
 │   └── fetch_stock_data.py
@@ -65,7 +66,9 @@ Real-Time-Stock-Market-Dashboard/
 │
 ├── videos/
 │   ├── demo.mp4
-│   └── link
+│   |__ link
+|   |__ stock_update.mp4
+|   └── update_link
 │
 ├── LICENSE
 ├── README.md
