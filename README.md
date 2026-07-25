@@ -1,77 +1,69 @@
-# 📈 Real-Time Stock Market Dashboard (Excel + Python + Alpha Vantage API)
+📈 Real-Time Stock Market Dashboard (Excel + Python + VBA + Alpha Vantage API)
 
-> An interactive stock market dashboard built using **Python**, **Alpha Vantage API**, and **Microsoft Excel (Advanced Excel)**. The project fetches live stock market data, performs analytical calculations, and visualizes key market trends through an interactive dashboard.
-
----
+An interactive, one-click-refresh stock market dashboard built using Python, VBA, Power Query, the Alpha Vantage API, and Microsoft Excel (Advanced Excel). The project automatically fetches live stock market data, processes it through Power Query, and visualizes key market trends through a fully automated, interactive dashboard.
 
 ## 📌 Project Overview
 
-The **Real-Time Stock Market Dashboard** is an end-to-end data analytics project that combines **Python automation** with **Advanced Excel** to create a live financial reporting dashboard.
+The Real-Time Stock Market Dashboard is an end-to-end data analytics project that combines Python automation, Power Query transformation, and VBA-driven refresh logic with Advanced Excel to create a live financial reporting dashboard.
 
-The Python script fetches the latest stock market data from the **Alpha Vantage API** and stores it in Excel. The Excel workbook then processes the data using formulas, Pivot Tables, Pivot Charts, and Slicers to create an interactive dashboard that updates whenever fresh data is loaded.
+A Python script fetches the latest stock market data from the Alpha Vantage API and writes it to a structured data source. Power Query then imports and cleans this data directly inside Excel. A VBA macro, triggered by a single button, orchestrates the entire refresh sequence — re-running the data pull, refreshing the Power Query connection, and updating every Pivot Table, Pivot Chart, and KPI card — so the whole dashboard updates with one click, no manual steps required.
 
-This project demonstrates practical skills in **data extraction, transformation, visualization, dashboard development, and business reporting**.
+This project demonstrates practical skills in API integration, data extraction, Power Query transformation, VBA automation, dashboard development, and business reporting.
 
----
+## 🎯 Objectives
 
-# 🎯 Objectives
+- Fetch real-time stock data automatically via API
+- Transform and clean data using Power Query
+- Automate the full refresh cycle with a VBA macro
+- Analyze stock performance and compare stock prices
+- Identify top gainers and losers
+- Analyze trading volume
+- Categorize stocks by price and volume
+- Build a fully interactive, one-click-refresh Excel dashboard
 
-- Fetch real-time stock data automatically.
-- Analyze stock performance.
-- Compare stock prices.
-- Identify top gainers and losers.
-- Analyze trading volume.
-- Categorize stocks by price and volume.
-- Build an interactive Excel dashboard.
-
----
-
-# 🛠 Tech Stack
+## 🛠 Tech Stack
 
 - Python
 - Alpha Vantage API
 - Microsoft Excel
 - Advanced Excel
+- Power Query
+- VBA (Visual Basic for Applications)
 - Pivot Tables
 - Pivot Charts
 - Slicers
 - Conditional Formatting
 
----
+## 📂 Project Structure
 
-# 📂 Project Structure
-
-```text
+```
 Real-Time-Stock-Market-Dashboard/
 │
 ├── data/
-│   |
 │   └── stock_data.xlsx
-|
+│
 ├── images/
 │   └── dashboard.png
-|
+│
 ├── python/
 │   └── fetch_stock_data.py
 │
-|__ videos/
-|    |__ demo.mp4
-|    └── link
-|
-|__ LICENSE
-|
-├── README.md
+├── vba/
+│   └── refresh_macro.bas
 │
-|__ Real-Time Stock Market Dashboard.xlsx
-|
+├── videos/
+│   ├── demo.mp4
+│   └── link
+│
+├── LICENSE
+├── README.md
+├── Real-Time Stock Market Dashboard.xlsx
 └── Report.docx
 ```
 
----
+## 🔄 Project Workflow
 
-# 🔄 Project Workflow
-
-```text
+```
 Alpha Vantage API
         │
         ▼
@@ -79,6 +71,9 @@ Alpha Vantage API
         │
         ▼
  Excel Data Sheet
+        │
+        ▼
+ Power Query (Transform & Clean)
         │
         ▼
  Calculation Sheet
@@ -90,15 +85,15 @@ Alpha Vantage API
  Pivot Charts
         │
         ▼
+ VBA Refresh Macro (One-Click Update)
+        │
+        ▼
  Interactive Dashboard
 ```
 
----
-
-# 📊 Dashboard Features
+## 📊 Dashboard Features
 
 ### KPI Cards
-
 - Total Stocks
 - Average Price
 - Highest Price
@@ -109,10 +104,7 @@ Alpha Vantage API
 - Total Losers
 - Last Updated Date
 
----
-
 ### Interactive Charts
-
 - Price Comparison
 - Change % Analysis
 - Volume Analysis
@@ -120,12 +112,8 @@ Alpha Vantage API
 - Price Range Distribution
 - Volume Range Distribution
 
----
-
 ### Market Summary Table
-
 The dashboard displays:
-
 - Symbol
 - Current Price
 - Price Change
@@ -136,12 +124,8 @@ The dashboard displays:
 - Volume Category
 - Last Updated
 
----
-
 ### Interactive Filters
-
 The dashboard includes slicers for:
-
 - Stock Symbol
 - Performance (Gain/Loss)
 - Price Range
@@ -149,14 +133,11 @@ The dashboard includes slicers for:
 
 Users can filter all charts and tables instantly.
 
----
+## 📈 Data Processing
 
-# 📈 Data Processing
-
-After fetching data from the API, Excel automatically performs calculations to create additional business insights.
+After fetching data from the API, Power Query and Excel formulas automatically perform transformations to create additional business insights.
 
 Calculated fields include:
-
 - Price Movement
 - Price Band
 - Volume Category
@@ -164,12 +145,9 @@ Calculated fields include:
 
 These fields are used throughout the dashboard for reporting and filtering.
 
----
-
-# 📊 Dashboard Insights
+## 📊 Dashboard Insights
 
 The dashboard helps users quickly identify:
-
 - Highest priced stock
 - Lowest priced stock
 - Top gainers
@@ -178,55 +156,40 @@ The dashboard helps users quickly identify:
 - Overall market trend
 - Distribution of stocks across different price bands
 
----
+## 🔁 One-Click Refresh Process
 
-# 🔁 Refresh Process
+1. Click the **Refresh Dashboard** button (VBA macro) on the dashboard sheet.
+2. The macro triggers the Python data fetch, pulling the latest data from the Alpha Vantage API.
+3. Power Query automatically re-imports and cleans the updated data.
+4. All Pivot Tables, Pivot Charts, KPI cards, and slicers refresh in sequence.
+5. The "Last Updated" timestamp updates automatically to confirm the refresh completed.
 
-1. Run the Python script.
-2. Fresh stock market data is fetched from the Alpha Vantage API.
-3. Excel data sheet is updated.
-4. Click **Refresh All** in Excel.
-5. Pivot Tables, Charts, KPIs, and Dashboard refresh automatically.
-
----
-
-
+No manual steps beyond the single click are required.
 
 ## 🎥 Project Demo
 
-[![Dashboard](images/dashboard.png)](videos/demo.mp4)
-[▶️ View Demo Video](https://drive.google.com/file/d/1LvJmbdnQ0ea-ci2NiQn80ft4i41-en4C/view?usp=sharing)
-
----
+Dashboard ▶️ View Demo Video
 
 ## 💡 Skills Demonstrated
 
-### Python
-
+- Python
 - API Integration
 - Data Extraction
+- Power Query
+- VBA Automation
 - Excel Automation
 - Data Processing
-
-### Advanced Excel
-
+- Advanced Excel
 - Pivot Tables
 - Pivot Charts
 - Interactive Dashboard Design
 - KPI Cards
 - Conditional Formatting
-- IF Functions
-- COUNTIF
-- SUM
-- AVERAGE
-- MAX
-- MIN
+- IF Functions, COUNTIF, SUM, AVERAGE, MAX, MIN
 - Data Validation
 - Slicers
 
----
-
-# 📈 Business Use Cases
+## 📈 Business Use Cases
 
 - Stock Market Analysis
 - Financial Reporting
@@ -234,23 +197,15 @@ The dashboard helps users quickly identify:
 - Portfolio Tracking
 - Business Intelligence Reporting
 
----
+## 🚀 Future Enhancements
 
-# 🚀 Future Enhancements
-
-- VBA Refresh Button
-- One-click Dashboard Refresh
 - Historical Stock Analysis
 - Moving Average Indicators
-- Power Query Integration
 - Power BI Dashboard Version
+- Scheduled Auto-Refresh (Task Scheduler Integration)
 
----
-
-# 👩‍💻 Author
+## 👩‍💻 Author
 
 **Anushka Yadav**
-
 B.Tech (Computer Science & Engineering – AI & ML)
-
-Aspiring **Data Analyst | Business Intelligence Analyst**
+Aspiring Data Analyst | Business Intelligence Analyst
