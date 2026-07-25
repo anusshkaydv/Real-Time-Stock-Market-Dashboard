@@ -1,7 +1,8 @@
-📈 Real-Time Stock Market Dashboard (Excel + Python + VBA + Alpha Vantage API)
+## 📈 Real-Time Stock Market Dashboard (Excel + Python + VBA + Alpha Vantage API)
 
 An interactive, one-click-refresh stock market dashboard built using Python, VBA, Power Query, the Alpha Vantage API, and Microsoft Excel (Advanced Excel). The project automatically fetches live stock market data, processes it through Power Query, and visualizes key market trends through a fully automated, interactive dashboard.
 
+---
 ## 📌 Project Overview
 
 The Real-Time Stock Market Dashboard is an end-to-end data analytics project that combines Python automation, Power Query transformation, and VBA-driven refresh logic with Advanced Excel to create a live financial reporting dashboard.
@@ -9,6 +10,8 @@ The Real-Time Stock Market Dashboard is an end-to-end data analytics project tha
 A Python script fetches the latest stock market data from the Alpha Vantage API and writes it to a structured data source. Power Query then imports and cleans this data directly inside Excel. A VBA macro, triggered by a single button, orchestrates the entire refresh sequence — re-running the data pull, refreshing the Power Query connection, and updating every Pivot Table, Pivot Chart, and KPI card — so the whole dashboard updates with one click, no manual steps required.
 
 This project demonstrates practical skills in API integration, data extraction, Power Query transformation, VBA automation, dashboard development, and business reporting.
+
+---
 
 ## 🎯 Objectives
 
@@ -20,6 +23,8 @@ This project demonstrates practical skills in API integration, data extraction, 
 - Analyze trading volume
 - Categorize stocks by price and volume
 - Build a fully interactive, one-click-refresh Excel dashboard
+
+  ---
 
 ## 🛠 Tech Stack
 
@@ -33,6 +38,8 @@ This project demonstrates practical skills in API integration, data extraction, 
 - Pivot Charts
 - Slicers
 - Conditional Formatting
+
+  ---
 
 ## 📂 Project Structure
 
@@ -60,6 +67,8 @@ Real-Time-Stock-Market-Dashboard/
 ├── Real-Time Stock Market Dashboard.xlsx
 └── Report.docx
 ```
+
+---
 
 ## 🔄 Project Workflow
 
@@ -90,6 +99,8 @@ Alpha Vantage API
         ▼
  Interactive Dashboard
 ```
+
+---
 
 ## 📊 Dashboard Features
 
@@ -133,6 +144,8 @@ The dashboard includes slicers for:
 
 Users can filter all charts and tables instantly.
 
+---
+
 ## 📈 Data Processing
 
 After fetching data from the API, Power Query and Excel formulas automatically perform transformations to create additional business insights.
@@ -145,6 +158,8 @@ Calculated fields include:
 
 These fields are used throughout the dashboard for reporting and filtering.
 
+---
+
 ## 📊 Dashboard Insights
 
 The dashboard helps users quickly identify:
@@ -156,6 +171,8 @@ The dashboard helps users quickly identify:
 - Overall market trend
 - Distribution of stocks across different price bands
 
+---
+
 ## 🔁 One-Click Refresh Process
 
 1. Click the **Refresh Dashboard** button (VBA macro) on the dashboard sheet.
@@ -166,9 +183,13 @@ The dashboard helps users quickly identify:
 
 No manual steps beyond the single click are required.
 
+---
+
 ## 🎥 Project Demo
 
-Dashboard ▶️ View Demo Video
+Dashboard (images/ dashboard.png) ▶️ View Demo Video
+
+---
 
 ## 💡 Skills Demonstrated
 
@@ -189,6 +210,8 @@ Dashboard ▶️ View Demo Video
 - Data Validation
 - Slicers
 
+---
+
 ## 📈 Business Use Cases
 
 - Stock Market Analysis
@@ -197,12 +220,16 @@ Dashboard ▶️ View Demo Video
 - Portfolio Tracking
 - Business Intelligence Reporting
 
+---
+
 ## 🚀 Future Enhancements
 
 - Historical Stock Analysis
 - Moving Average Indicators
 - Power BI Dashboard Version
 - Scheduled Auto-Refresh (Task Scheduler Integration)
+
+---
 
 ## 👩‍💻 Author
 
