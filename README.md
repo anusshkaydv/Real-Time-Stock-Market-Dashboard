@@ -187,7 +187,8 @@ No manual steps beyond the single click are required.
 
 ## 🎥 Project Demo
 
-Dashboard (images/ dashboard.png) ▶️ View Demo Video
+![Dashboard Screenshot](images/dashboard.png)
+▶️ View Demo Video
 
 ---
 
