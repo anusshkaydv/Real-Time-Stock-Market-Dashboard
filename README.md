@@ -188,7 +188,7 @@ No manual steps beyond the single click are required.
 ## 🎥 Project Demo
 
 ![Dashboard Screenshot](images/dashboard.png)
-▶️ View Demo Video
+ 🎥 **[Watch Demo Video](https://drive.google.com/file/d/YOUR_FILE_ID/view)**
 
 ---
 
