@@ -30,8 +30,7 @@ This project demonstrates practical skills in API integration, data extraction, 
 
 - Python
 - Alpha Vantage API
-- Microsoft Excel
-- Advanced Excel
+- Microsoft Excel (Advanced Excel)
 - Power Query
 - VBA (Visual Basic for Applications)
 - Pivot Tables
@@ -40,8 +39,14 @@ This project demonstrates practical skills in API integration, data extraction, 
 - Conditional Formatting
 
   ---
+## 📦 Data Source
+
+The dashboard retrieves live market data using the Alpha Vantage Global Quote API. Each dashboard refresh requests the latest market information for a predefined list of technology stocks, including stock price, daily price change, percentage change, trading volume, and timestamp.
+
+---
 
 ## 📂 Project Structure
+
 
 ```
 Real-Time-Stock-Market-Dashboard/
@@ -176,7 +181,7 @@ The dashboard helps users quickly identify:
 ## 🔁 One-Click Refresh Process
 
 1. Click the **Refresh Dashboard** button (VBA macro) on the dashboard sheet.
-2. The macro triggers the Python data fetch, pulling the latest data from the Alpha Vantage API.
+2. The VBA macro runs the Python script, waits for it to finish updating the Excel data source, refreshes the Power Query connection, updates all Pivot Tables, Pivot Charts, KPI cards, and slicers, and completes the dashboard refresh automatically.
 3. Power Query automatically re-imports and cleans the updated data.
 4. All Pivot Tables, Pivot Charts, KPI cards, and slicers refresh in sequence.
 5. The "Last Updated" timestamp updates automatically to confirm the refresh completed.
